@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSV (Table) Viewer</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="table.png">
+    </head>
+    <body>
+        <h1>Spreadsheet (CSV) Viewer</h1>
+        <h3 for="csvFileInput">Select a Spreadsheet file (.csv):</h3>
+        <input type="file" id="csvFileInput" style="padding-bottom: 25px">
+        <table id="csvRoot"></table>
+      
+      <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.1/papaparse.min.js"></script>
+      <script src="viewcsv.js"></script>
+    </body>
+</html>
